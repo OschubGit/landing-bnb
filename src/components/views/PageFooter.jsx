@@ -7,7 +7,7 @@ import camping from "../../app/images/camping.jpg";
 const useStyles = makeStyles((theme) => ({
   textImage: {
     position: "absolute",
-    top: "50%",
+    top: "40%",
     left: "50%",
     transform: "translate(-50%, -50%)",
     color: theme.palette.common.white,

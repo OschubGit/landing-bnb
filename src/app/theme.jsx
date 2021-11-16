@@ -24,15 +24,15 @@ const theme = createTheme({
       main: "#06070F",
     },
     primary: {
-      main: "#20c0c5", // corporativo scenikus por defecto
-      light: "#20f1c4", // corporativo scenikus
-      dark: "#287175", // corporativo scenikus
+      main: "#ff4545", // corporativo scenikus por defecto
+      light: "#FF5B7A", // corporativo scenikus
+      dark: "#A32C2C", // corporativo scenikus
       contrastText: "#fff",
     },
     secondary: {
-      main: "#c10057",
-      light: "#fb3b57",
-      dark: "#8c0035",
+      main: "#4FC1A0",
+      light: "#92DD9D",
+      dark: "#2C6A58",
     },
     error: {
       main: "#f44336",

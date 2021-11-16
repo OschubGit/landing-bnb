@@ -10,10 +10,10 @@ const useStyles = makeStyles((theme) => ({
 
 const Titles = (props) => {
   const classes = useStyles();
-  const { text, subtext, variant, variantSub } = props;
+  const { text, subtext, variant, variantSub, color } = props;
   return (
     <div>
-      <Typography variant={variant} className={classes.title}>
+      <Typography variant={variant} className={classes.title} color={color}>
         {text}
       </Typography>
       <Typography variant={variantSub}>{subtext}</Typography>

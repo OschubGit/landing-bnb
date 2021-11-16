@@ -31,11 +31,6 @@ const Hero = () => {
             slidesPerView="1"
           />
         </div>
-        <Box mt={3}>
-          <Typography variant="subtitle1" align="center" color="primary">
-            Navega y descubre todo lo que tenemos preparado
-          </Typography>
-        </Box>
       </Container>
     </div>
   );

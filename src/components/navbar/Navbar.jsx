@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useStyles } from "./_navbar";
-import logo from "../../app/images/logo.png";
+import Logo from "../Logo";
 
 const Navbar = () => {
   const classes = useStyles();
@@ -25,7 +25,7 @@ const Navbar = () => {
             <MenuIcon />
           </IconButton>
           <Typography component="div" sx={{ flexGrow: 1 }}>
-            <img width="120px" src={logo} alt="logo" />
+            <Logo width="130px" />
           </Typography>
           <Typography className={classes.menu} variant="subtitle1">
             Mi Espacio
@@ -36,7 +36,9 @@ const Navbar = () => {
           <Typography className={classes.menu} variant="subtitle1">
             Panel de Control
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="secondary" variant="outlined">
+            Login
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

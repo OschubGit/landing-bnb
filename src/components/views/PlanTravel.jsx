@@ -20,7 +20,7 @@ const PlanTravel = () => {
           <Grid item xs={12} md={6}>
             <div className={classes.travelText}>
               <Titles
-                text="¿Planes un viaje?"
+                text="¿Planeas un viaje?"
                 subtext="Si no sabes deonde ir, te ayudamos a planer tu viaje"
                 variant="h4"
                 variantSub="h6"
