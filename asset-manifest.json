@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/landing-bnb/static/css/main.30e91182.chunk.css",
-    "main.js": "/landing-bnb/static/js/main.2dc68c98.chunk.js",
-    "main.js.map": "/landing-bnb/static/js/main.2dc68c98.chunk.js.map",
+    "main.js": "/landing-bnb/static/js/main.ecb56057.chunk.js",
+    "main.js.map": "/landing-bnb/static/js/main.ecb56057.chunk.js.map",
     "runtime-main.js": "/landing-bnb/static/js/runtime-main.339496c5.js",
     "runtime-main.js.map": "/landing-bnb/static/js/runtime-main.339496c5.js.map",
     "static/css/2.368d27ff.chunk.css": "/landing-bnb/static/css/2.368d27ff.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.368d27ff.chunk.css",
     "static/js/2.f7a3bbb0.chunk.js",
     "static/css/main.30e91182.chunk.css",
-    "static/js/main.2dc68c98.chunk.js"
+    "static/js/main.ecb56057.chunk.js"
   ]
 }
