@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageSwiperBasicScroll {
+  animation-name: identifier;
+  transform: scale(1);
+  animation-duration: 5s;
+}
+
+@keyframes identifier {
+  0% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.boxImageInner {
+  opacity: opacity(var(--opacity));
+  animation-name: rooms;
+  animation-duration: 5s;
+}
+
+@keyframes rooms {
+  0% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fire {
+  position: absolute;
+  top: 73%;
+  width: 222px;
+  height: 250px;
+  opacity: 0.8;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
