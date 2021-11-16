@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/landing-bnb/static/css/main.35594077.chunk.css",
-    "main.js": "/landing-bnb/static/js/main.2e27d491.chunk.js",
-    "main.js.map": "/landing-bnb/static/js/main.2e27d491.chunk.js.map",
+    "main.css": "/landing-bnb/static/css/main.30e91182.chunk.css",
+    "main.js": "/landing-bnb/static/js/main.2dc68c98.chunk.js",
+    "main.js.map": "/landing-bnb/static/js/main.2dc68c98.chunk.js.map",
     "runtime-main.js": "/landing-bnb/static/js/runtime-main.339496c5.js",
     "runtime-main.js.map": "/landing-bnb/static/js/runtime-main.339496c5.js.map",
     "static/css/2.368d27ff.chunk.css": "/landing-bnb/static/css/2.368d27ff.chunk.css",
@@ -10,14 +10,20 @@
     "static/js/2.f7a3bbb0.chunk.js.map": "/landing-bnb/static/js/2.f7a3bbb0.chunk.js.map",
     "index.html": "/landing-bnb/index.html",
     "static/css/2.368d27ff.chunk.css.map": "/landing-bnb/static/css/2.368d27ff.chunk.css.map",
-    "static/css/main.35594077.chunk.css.map": "/landing-bnb/static/css/main.35594077.chunk.css.map",
-    "static/js/2.f7a3bbb0.chunk.js.LICENSE.txt": "/landing-bnb/static/js/2.f7a3bbb0.chunk.js.LICENSE.txt"
+    "static/css/main.30e91182.chunk.css.map": "/landing-bnb/static/css/main.30e91182.chunk.css.map",
+    "static/js/2.f7a3bbb0.chunk.js.LICENSE.txt": "/landing-bnb/static/js/2.f7a3bbb0.chunk.js.LICENSE.txt",
+    "static/media/camping.cb0a234f.jpg": "/landing-bnb/static/media/camping.cb0a234f.jpg",
+    "static/media/logo.e535a7c3.png": "/landing-bnb/static/media/logo.e535a7c3.png",
+    "static/media/room_1.454d05eb.jpg": "/landing-bnb/static/media/room_1.454d05eb.jpg",
+    "static/media/room_2.66843318.jpg": "/landing-bnb/static/media/room_2.66843318.jpg",
+    "static/media/santorini.5944dd4b.jpg": "/landing-bnb/static/media/santorini.5944dd4b.jpg",
+    "static/media/travel_plan.e2973eba.png": "/landing-bnb/static/media/travel_plan.e2973eba.png"
   },
   "entrypoints": [
     "static/js/runtime-main.339496c5.js",
     "static/css/2.368d27ff.chunk.css",
     "static/js/2.f7a3bbb0.chunk.js",
-    "static/css/main.35594077.chunk.css",
-    "static/js/main.2e27d491.chunk.js"
+    "static/css/main.30e91182.chunk.css",
+    "static/js/main.2dc68c98.chunk.js"
   ]
 }
