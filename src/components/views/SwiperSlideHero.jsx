@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../../app.css";
+import "../../App.css";
 
 /// import Swiper core and required components
 import SwiperCore, {

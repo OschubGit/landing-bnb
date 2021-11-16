@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { Container, Grid, Box, Typography } from "@mui/material";
 import { useStyles } from "./_rooms";
 import Titles from "../title/Titles";
+import room from "../../app/images/room_1.jpg";
+import room2 from "../../app/images/room_2.jpg";
 
 const Room = () => {
   const classes = useStyles();
@@ -20,11 +22,7 @@ const Room = () => {
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
             <div className={classes.boxImage}>
-              <img
-                className="boxImageInner"
-                src="/images/room_1.jpg"
-                alt="room_izq"
-              />
+              <img className="boxImageInner" src={room} alt="room_izq" />
               <div className={classes.filter} />
               <div className={classes.textImage}>
                 <Titles
@@ -38,11 +36,7 @@ const Room = () => {
           </Grid>
           <Grid item xs={12} md={6}>
             <div className={classes.boxImage}>
-              <img
-                className="boxImageInner"
-                src="/images/room_2.jpg"
-                alt="room_der"
-              />
+              <img className="boxImageInner" src={room2} alt="room_der" />
               <div className={classes.filter} />
               <div className={classes.textImage}>
                 <Titles

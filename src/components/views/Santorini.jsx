@@ -5,6 +5,7 @@ import ButtonBnb from "../button/ButtonBnb";
 import { useStyles } from "./_hero";
 import { Box } from "@mui/system";
 import Titles from "../title/Titles";
+import santorini from "../../app/images/santorini.jpg";
 
 const Santorini = () => {
   const classes = useStyles();
@@ -29,7 +30,7 @@ const Santorini = () => {
         </div>
         <div className={classes.hero}>
           <SwiperSlideHero
-            src="/images/santorini.jpg"
+            src={santorini}
             spaceBetween="30"
             slidesPerView="1"
           />

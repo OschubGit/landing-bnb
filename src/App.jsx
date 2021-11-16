@@ -2,7 +2,7 @@ import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/views/Hero";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../src/app/theme";
-import "./app.css";
+import "./App.css";
 import CitieSlides from "./components/views/CitieSlides";
 import PlanTravel from "./components/views/PlanTravel";
 import Santorini from "./components/views/Santorini";

@@ -2,6 +2,7 @@ import { Container, Typography, Box, Button, Hidden } from "@mui/material";
 import React from "react";
 import { makeStyles } from "@mui/styles";
 import Titles from "../title/Titles";
+import camping from "../../app/images/camping.jpg";
 
 const useStyles = makeStyles((theme) => ({
   textImage: {
@@ -18,7 +19,7 @@ const PageFooter = () => {
   const classes = useStyles();
   return (
     <div style={{ position: "relative" }}>
-      <img width="100%" src="/images/camping.jpg" alt="camping" />
+      <img width="100%" src={camping} alt="camping" />
       <Hidden mdDown>
         <img
           className="fire"

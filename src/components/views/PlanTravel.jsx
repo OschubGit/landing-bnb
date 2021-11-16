@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Container, Grid, Typography, Box } from "@mui/material";
 import { useStyles } from "./_planTravel";
 import Titles from "../title/Titles";
+import travel from "../../app/images/travel_plan.png";
 
 const PlanTravel = () => {
   const classes = useStyles();
@@ -12,7 +13,7 @@ const PlanTravel = () => {
           <Grid item xs={12} md={6}>
             <img
               className={classes.travelImage}
-              src="/images/travel_plan.png"
+              src={travel}
               alt="planing_travel"
             />
           </Grid>
