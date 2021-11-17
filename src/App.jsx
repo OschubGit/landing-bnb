@@ -1,26 +1,24 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/views/Hero";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../src/app/theme";
 import "./App.css";
-import CitieSlides from "./components/views/CitieSlides";
-import PlanTravel from "./components/views/PlanTravel";
-import Santorini from "./components/views/Santorini";
-import Room from "./components/views/Room";
-import PageFooter from "./components/views/PageFooter";
+import Home from "./containers/Home";
+import TravelDetail from "./components/views/TravelDetail";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
+      <Router>
         <Navbar />
-        <Hero />
-        <CitieSlides />
-        <PlanTravel />
-        <Santorini />
-        <Room />
-        <PageFooter />
-      </div>
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/travel-city/:name/:slug" children={<TravelDetail />} />
+          <Route path="/travel-city/:name" children={<TravelDetail />} />
+        </Switch>
+      </Router>
     </ThemeProvider>
   );
 }
