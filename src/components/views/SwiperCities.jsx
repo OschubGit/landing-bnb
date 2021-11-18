@@ -19,6 +19,8 @@ import { Typography, Container } from "@mui/material";
 import products from "../../app/api/products";
 import { useStyles } from "./_slideCities";
 import { Box } from "@mui/system";
+import Video from "./Video";
+import video from "../../app/images/productionID_3851611.mp4";
 
 // install Swiper components
 SwiperCore.use([Navigation, Autoplay, Pagination, Scrollbar, A11y]);
@@ -52,9 +54,7 @@ const SwiperCities = ({ category, slidesPerView }) => {
               >
                 {i.video ? (
                   <div className={classes.innerVideo}>
-                    <video controls poster={i.image}>
-                      <source src={i.video} />
-                    </video>
+                    <Video src={video} poster={i.image} />
                   </div>
                 ) : (
                   <div className={classes.innerImage}>
